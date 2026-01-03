@@ -22,7 +22,7 @@ Density critically shapes population dynamics, with high densities exacerbating 
 1.  Clone the repository:
     ```bash
     git clone [https://github.com/fabrylab/AntarcticFurSealPredatorPrey.git]([https://github.com/yourusername/your-repo-name.git](https://github.com/fabrylab/AntarcticFurSealPredatorPrey.git))
-    cd your-repo-name
+    cd AntarcticFurSealPredatorPrey
     ```
 2.  Install dependencies:
     ```bash
