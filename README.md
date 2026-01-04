@@ -6,6 +6,11 @@
 ## Description
 This repository contains the code and analysis workflow for the paper **"Fine-scale spatiotemporal predator-prey interactions in an Antarctic fur seal colony"**. It includes the neural network training pipeline (YOLO-based) and the downstream ecological analysis of predator-prey spatial dynamics.
 
+<p align="center">
+  <img src="assets/cover.png" width="100%" alt="Antarctic Fur Seal Colony Analysis">
+</p>
+
+
 ## Abstract
 Density critically shapes population dynamics, with high densities exacerbating intraspecific competition and disease transmission, while low densities increase predation risk. To investigate spatiotemporal density patterns and predator-prey interactions in an Antarctic fur seal (*Arctocephalus gazella*) colony, we deployed an autonomous camera that captured minute-by-minute high-resolution images throughout a breeding season. Using a YOLO-based neural network, we identified adult males, females and pups, and avian predator-scavenger species: giant petrels (*Macronectes* spp.), brown skuas (*Stercorarius antarcticus*) and snowy sheathbills (*Chionis alba*). Analysing a dataset of 4.1 million automated detections from over 10,000 high-quality images, we found spatiotemporal abundance patterns corresponding with the known foraging and breeding behaviours of these species. Strong temporal associations also emerged between the abundance of pups and two of the avian species. Fine-scale spatial analyses further revealed that pups typically remained near other pups and adult females but avoided avian predators and territorial males. Notably, the proximity of adult fur seals of both sexes reduced pup predation risk, defined as the distance between the pup and the nearest bird, whereas proximity to other pups did not. This study provides a framework for studying density-dependent interactions in wild populations and highlights the value of remote observation in ecological research.
 
@@ -63,4 +68,13 @@ Run this notebook to retrain the network or finetune the model.
 This notebook contains the entire ecological data analysis presented in the paper.
 * Generates the spatiotemporal plots and predator-prey interaction statistics.
 * Input: The detection data (CSV/dataframe) produced by the network.
+
+## Contact
+
+For questions regarding the code, dataset, or the biological analysis, please contact the authors:
+
+*  - [**Ane Liv Berthelsen**](https://thehoffmanlab.com/group/ane-liv-berthelsen/)
+*  - [**Johannes Bartl**](https://bio.physik.fau.de/person/johannes-bartl/)
+  
+If you encounter bugs in the code, please feel free to [open an issue](https://github.com/fabrylab/AntarcticFurSealPredatorPrey/issues) in this repository.
 
