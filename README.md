@@ -1,6 +1,6 @@
 # Fine-scale spatiotemporal predator-prey interactions in an Antarctic fur seal colony
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18141471.svg)](https://doi.org/10.5281/zenodo.18141471)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18141470.svg)](https://doi.org/10.5281/zenodo.18141470)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
@@ -41,7 +41,7 @@ Density critically shapes population dynamics, with high densities exacerbating 
 To reproduce the results, you must first download the dataset and pre-trained weights from Zenodo.
 
 1.  **Download Data:**
-    *  Go to [10.5281/zenodo.18141471](https://doi.org/10.5281/zenodo.18141471)
+    *  Go to [10.5281/zenodo.18141471](https://doi.org/10.5281/zenodo.18141470)
     * Download `data.zip` and `model.h5`.
 2.  **Unpack:**
     * Unzip `data.zip` into the repository root.
