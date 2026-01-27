@@ -41,7 +41,7 @@ Density critically shapes population dynamics, with high densities exacerbating 
 To reproduce the results, you must first download the dataset and pre-trained weights from Zenodo.
 
 1.  **Download Data:**
-    *  Go to [10.5281/zenodo.18141471](https://doi.org/10.5281/zenodo.18141470)
+    *  Go to [10.5281/zenodo.18141470](https://doi.org/10.5281/zenodo.18141470)
     * Download `data.zip` and `model.h5`.
 2.  **Unpack:**
     * Unzip `data.zip` into the repository root.
