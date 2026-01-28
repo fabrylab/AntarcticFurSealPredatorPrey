@@ -42,19 +42,29 @@ To reproduce the results, you must first download the dataset and pre-trained we
 
 1.  **Download Data:**
     *  Go to [10.5281/zenodo.18141470](https://doi.org/10.5281/zenodo.18141470)
-    * Download `data.zip` and `model.h5`.
+    * Download `data.zip`, `model.h5`, `automated_detections`.csv and `manual_detections.csv`.
 2.  **Unpack:**
     * Unzip `data.zip` into the repository root.
     * Place `model.h5` in the repository root.
+    * Place `automated_detections.csv` and `manual_detections.csv` in the files folder
 3.  **Directory Structure:**
     Ensure your folder looks like this:
     ```text
     .
-    ├── data/                  # Unzipped data folder
-    ├── model.h5               # Network weights
-    ├── train.ipynb
-    ├── analyze.ipynb
-    └── README.md
+    ├── data/                       # Unzipped image dataset
+    │   ├── image.JPG
+    │   ├── image.cdb           # ClickPoints database files
+    │   └── ...                     # Remaining images and databases
+    ├── files/                      # Detection data
+    │   ├── automated_detections.csv
+    │   └── manual_detections.csv
+    ├── assets/                     # Documentation images (optional)
+    │   └── cover.png
+    ├── model.h5                    # Neural network weights
+    ├── train.ipynb                 # Training pipeline
+    ├── analyze.ipynb               # Ecological analysis
+    ├── requirements.txt            # Python dependencies
+    └── README.md                   # Project documentation
     ```
 
 ## Usage
