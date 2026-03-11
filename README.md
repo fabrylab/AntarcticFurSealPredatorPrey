@@ -14,6 +14,16 @@ This repository contains the code and analysis workflow for the paper **"Fine-sc
 ## Abstract
 Density critically shapes population dynamics, with high densities exacerbating intraspecific competition and disease transmission, while low densities increase predation risk. To investigate spatiotemporal density patterns and predator-prey interactions in an Antarctic fur seal (*Arctocephalus gazella*) colony, we deployed an autonomous camera that captured minute-by-minute high-resolution images throughout a breeding season. Using a YOLO-based neural network, we identified adult males, females and pups, and avian predator-scavenger species: giant petrels (*Macronectes* spp.), brown skuas (*Stercorarius antarcticus*) and snowy sheathbills (*Chionis alba*). Analysing a dataset of 4.1 million automated detections from over 10,000 high-quality images, we found spatiotemporal abundance patterns corresponding with the known foraging and breeding behaviours of these species. Strong temporal associations also emerged between the abundance of pups and two of the avian species. Fine-scale spatial analyses further revealed that pups typically remained near other pups and adult females but avoided avian predators and territorial males. Notably, the proximity of adult fur seals of both sexes reduced pup predation risk, defined as the distance between the pup and the nearest bird, whereas proximity to other pups did not. This study provides a framework for studying density-dependent interactions in wild populations and highlights the value of remote observation in ecological research.
 
+## Authors
+Ane Liv Berthelsen [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0001-6718-6709), 
+Johannes Bartl [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0009-0003-3647-2472), 
+Alexander Winterl [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0003-0688-9317), 
+Cameron Fox-Clarke, 
+Jaume Forcada [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0002-2115-0150), 
+Rebecca Nagel [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0002-2925-1028), 
+Ben Fabry [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0003-1737-0465), 
+Joseph Ivan Hoffman [![ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0001-5895-8949)
+
 ## Installation
 
 ### Prerequisites
